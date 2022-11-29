@@ -1,5 +1,28 @@
 # Research_Algo_Ex5
 
+### Q1 - Iterator - q1.py
+    This question is about creating a custom iterator for making subsets of a given list, by the following conditions;
+        1. each subset's sum must not be over the given value (C).
+        2. must not creating all subsets first' only on-the-run.
+        
+    The function bounded_subsets returns a list of lists of valid subsets from the given list, that accepts the aboe conditions.
+    
+### Q2 - Strategy - q2.py
+    This question is about the OOP principle of Strategy - multiple ways to solve a problem.
+    The problem i chose to work on is the Connected Components of a given Graph.
+    The algorithms that problem can be solved with are:
+        1. BFS - Breadth First Search
+        2. DFS - Depth First Search
+    
+    Both are compatable with the main function connectedComponents which accepts one of the above as an argument 'algorithm'.
+        
+    The possible output types of this strategy are:
+        1. sizes of components
+        2. the components by themselves
+    
+    Both are compatable with the main function connectedComponents which accepts one of the above as an argument 'output_type'.
+
+    
 
 ### Q3: CodinGame
 
