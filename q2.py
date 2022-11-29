@@ -71,7 +71,7 @@ class Graph:
                     queue.append(i)
         return cc
 
-    def connectedComponents(self, algorithm: Callable, output_type: OutputType):
+    def connectedComponents(self, algorithm: Callable = BFSUtil, output_type: OutputType = OutputType.SIZE):
         visited = [False] * self.V
         cc = []
         for v in range(self.V):
